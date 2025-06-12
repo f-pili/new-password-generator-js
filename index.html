@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Generatore di Password</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <div class="card">
+      <h1 class="title" onclick="generatePassword()">
+        Generate a <span class="highlight">random password</span>
+      </h1>
+      <p class="subtitle">Never use an insecure password again.</p>
+      <button class="btn-generate">Generate passwords</button>
+      <hr class="divider" />
+      <div class="output-list">
+        <div class="output" id="firstOutput"></div>
+        <div class="output" id="secondOutput"></div>
+      </div>
+    </div>
+  </main>
+  <script src="scripts.js"></script>
+</body>
+</html>
