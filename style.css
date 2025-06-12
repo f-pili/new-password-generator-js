@@ -87,6 +87,21 @@
     color: #a5b4fc;
     flex: 1 1 150px;
     word-break: break-all;
+    cursor: pointer;
+    user-select: none;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+
+  .output:hover {
+    background: #f0f0f0;
+  }
+
+  .output.copied {
+    background-color: #4ade80;
+    color: #1e293b;
   }
   
   /* Responsive */
